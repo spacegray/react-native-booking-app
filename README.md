@@ -23,7 +23,6 @@ For full functionality, Create a Firebase project and configure it with your pre
 In the project directory, create a new file called firebase.js and add your Firebase configuration information, like so:
 
 ```javascript
-Copy code
 import firebase from 'firebase';
 
 const firebaseConfig = {
