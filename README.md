@@ -16,21 +16,12 @@ Clone this repository to your local machine using git clone.
 
 Install the necessary dependencies by running npm install in the project directory.
 
+Start the app using `expo start`
+
 **Requires an ios or Android Simulator**
 
 For full functionality, Create a Firebase project and configure it with your preferred authentication and data storage options.
 
-In the project directory, create a new file called firebase.js and add your Firebase configuration information, like so:
+In the project directory, update your firebase.js file  with your credentials 
 
-```javascript
-import firebase from 'firebase';
 
-const firebaseConfig = {
-  // Add your Firebase configuration information here
-};
-
-firebase.initializeApp(firebaseConfig);
-
-export default firebase;
-```
-Start the app using `expo start`
